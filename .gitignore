@@ -1,0 +1,4 @@
+/mysql
+/mysql-dumps/
+/docker-db-entrypoint/*
+/config/parameters.sh

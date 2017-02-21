@@ -1,0 +1,19 @@
+#!/bin/bash
+# Mysql root password
+MYSQL_ROOT_PASSWORD=wordpress
+# Mysql db name
+MYSQL_DATABASE=wordpress
+# Project root path
+PWD=$(dirname "$0")/../
+# Directory for dropping mysql dumps in
+MYSQL_DUMPS_DIRECTORY="${PWD}/mysql-dumps"
+# Apache public web folder
+WWW_DIR="${PDW}/app/public_html"
+# PHP Apache container name
+PHP_CNT=app
+# Mysql container name
+DB_CNT=db
+# PHP_APP Image name
+PHP_APP_IMAGE_NAME=docker-app
+# Exposed Apache Port
+EXPOSED_WEB_PORT=80
