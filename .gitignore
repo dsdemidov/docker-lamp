@@ -1,3 +1,5 @@
+.idea
+
 /mysql
 /mysql-dumps/
 /docker-db-entrypoint/*
@@ -5,3 +7,4 @@
 /app/*
 !/app/public_html/
 /app/public_html/*
+!/app/public_html/index.php
