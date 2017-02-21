@@ -1,5 +1,5 @@
 #!/bin/bash
-. $(dirname "$0")/../parameters.sh
+. $(dirname "$0")/../config/parameters.sh
 
 docker build -t ${PHP_APP_IMAGE_NAME} .
 
