@@ -2,3 +2,6 @@
 /mysql-dumps/
 /docker-db-entrypoint/*
 /config/parameters.sh
+/app/*
+!/app/public_html/
+/app/public_html/*
