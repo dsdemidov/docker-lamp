@@ -1,0 +1,12 @@
+{
+    "name": "dsdemidov/docker-lamp",
+    "description": "Docker LAMP is the docker based lamp environment for developing simple php sites",
+    "type": "plugin",
+    "authors": [
+        {
+            "name": "Dmitry Demidov",
+            "email": "mail@demidov.media"
+        }
+    ],
+    "require": {}
+}

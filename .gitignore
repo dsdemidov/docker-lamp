@@ -3,3 +3,5 @@
 /mysql
 /mysql-dumps/
 /config/parameters.sh
+
+/vendor/
