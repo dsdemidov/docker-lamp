@@ -4,11 +4,11 @@ MYSQL_ROOT_PASSWORD=wordpress
 # Mysql db name
 MYSQL_DATABASE=wordpress
 # Project root path
-PWD=$(dirname "$0")/../
+PWD="$( cd "$( dirname "${BASH_SOURCE[0]}" )" && pwd )"
 # Directory for dropping mysql dumps in
 MYSQL_DUMPS_DIRECTORY="${PWD}/mysql-dumps"
 # Apache public web folder
-WWW_DIR="${PDW}/app/public_html"
+WWW_DIR="${PWD}/app/public_html"
 # PHP Apache container name
 PHP_CNT=app
 # Mysql container name
