@@ -7,5 +7,9 @@
             "email": "mail@demidov.media"
         }
     ],
-    "require": {}
+    "scripts": {
+    	"start": "docker/start.sh",
+    	"stop": "docker/stop.sh",
+    	"restart": "docker/restart"
+    }
 }
