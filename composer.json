@@ -1,5 +1,5 @@
 {
-    "name": "dsdemidov/docker-lamp-plugin",
+    "name": "dsdemidov/docker-lamp",
     "description": "Docker LAMP is the docker based lamp environment for developing simple php sites",
     "type": "composer-plugin",
     "authors": [
