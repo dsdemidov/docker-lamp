@@ -2,10 +2,4 @@
 
 /mysql
 /mysql-dumps/
-/docker-db-entrypoint/*
-!/docker-db-entrypoint/.gitignore
 /config/parameters.sh
-/app/*
-!/app/public_html/
-/app/public_html/*
-!/app/public_html/index.php
