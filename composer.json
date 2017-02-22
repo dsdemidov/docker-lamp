@@ -1,15 +1,23 @@
 {
     "name": "dsdemidov/docker-lamp",
     "description": "Docker LAMP is the docker based lamp environment for developing simple php sites",
+    "type": "composer-plugin",
     "authors": [
         {
             "name": "Dmitry Demidov",
             "email": "mail@demidov.media"
         }
     ],
-    "scripts": {
-    	"start": "docker/start.sh",
-    	"stop": "docker/stop.sh",
-    	"restart": "docker/restart"
+    "require": {
+        "composer-plugin-api": "^1.0",
+        "composer/composer": "*"
+    },
+    "autoload": {
+        "psr-4": {
+            "DockerLAMP\\": "src"
+        }
+    },
+    "extra": {
+      "class": "DockerLAMP\\DockerLAMP"
     }
 }
